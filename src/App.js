@@ -1,10 +1,14 @@
 import React from 'react';
 import classes from  './App.module.css';
+import Layout from './components/Layout/Layout';
+import BurgerBuilder from './components/containers/BurgerBuilder/BurgerBuilder';
 
 function App() {
   return (
     <div className={classes.App}>
-      asd
+      <Layout>
+        <BurgerBuilder />
+      </Layout>
     </div>
   );
 }
